@@ -39,7 +39,7 @@
   (pad "8" smd oval (at -1.91 -2.68) (size 0.63 1.86) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f0eaa082-c62d-4b61-95f2-cc0ca9fae413))
   (pad "9" smd rect (at 0 0) (size 3.3 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5280fe92-d1cc-4813-b37e-432dba0593e7))
   (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1.wrl"
-    (offset (xyz 0 -0 -0))
+    (offset (xyz 0 -0 0.75))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
