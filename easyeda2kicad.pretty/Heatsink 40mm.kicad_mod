@@ -1,7 +1,7 @@
 (footprint "Heatsink 40mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6ad5b609-bcef-4b23-ad86-6be12f25950d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "173c92fd-70d9-4639-8db6-8014f18b86d7")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +60,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "8354d9b7-e34b-4a32-9a6b-84d5bf3c5cf6")
 	)
 	(fp_line
@@ -83,7 +70,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "a9e28a07-27af-4fe3-b930-c2a3b8d64287")
 	)
 	(fp_line
@@ -93,7 +80,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "3fc9a827-1bac-4ec3-bc0d-1a80df00a77a")
 	)
 	(fp_line
@@ -103,7 +90,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "67dba0f3-1a25-4193-9e7a-ae22fd628ebd")
 	)
 	(fp_line
@@ -113,7 +100,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "10e2824a-3412-4dc1-9b3f-f57b87641b17")
 	)
 	(fp_line
@@ -123,7 +110,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "1904b844-aaa9-46cb-906d-82113f90e88d")
 	)
 	(fp_line
@@ -133,7 +120,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "b3c08b45-1c75-4d65-9a35-7374e45ba0a4")
 	)
 	(fp_line
@@ -143,7 +130,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "da6c1904-2198-482d-8398-fd73e732213f")
 	)
 	(fp_arc
@@ -154,7 +141,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "77b431e7-e4fa-4c22-bb9e-d49e9034e873")
 	)
 	(fp_arc
@@ -165,7 +152,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "User.2")
 		(uuid "fd991ca3-d6bb-4a48-aa11-8ceadd14e7dd")
 	)
 	(fp_text user "${REFERENCE}"
@@ -180,20 +167,23 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "1" thru_hole circle
 		(at -30 0)
 		(size 6 6)
 		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(clearance 0.5)
 		(uuid "88d3adc3-a8e6-414c-b681-a04497d46272")
 	)
-	(pad "" np_thru_hole circle
+	(pad "2" thru_hole circle
 		(at 30 0)
 		(size 6 6)
 		(drill 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(clearance 0.5)
 		(uuid "7308945a-e0f3-4602-906e-7c71bfc212cd")
 	)
+	(embedded_fonts no)
 )
