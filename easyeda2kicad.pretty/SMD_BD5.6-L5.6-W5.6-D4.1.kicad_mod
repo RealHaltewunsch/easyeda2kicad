@@ -1,7 +1,7 @@
 (footprint "SMD_BD5.6-L5.6-W5.6-D4.1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6.17 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "73db192f-dcb5-4c29-992a-8cddf8a783ac")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -69,7 +57,7 @@
 			(width 0.13)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e6885e8d-e43b-434e-b5c1-8414f8c25a2f")
 	)
@@ -80,7 +68,7 @@
 			(width 2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "2f42cb97-1503-453b-bc5c-bdc832a80d7d")
 	)
@@ -95,10 +83,11 @@
 			)
 		)
 	)
-	(pad "" thru_hole circle
-		(at 0.01 0)
+	(pad "1" thru_hole circle
+		(at 0 0)
 		(size 4.25 4.25)
 		(drill 4.25)
+		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8034d528-fbaf-48e0-97f4-2f4f0245b3ec")
@@ -106,7 +95,7 @@
 	(pad "1" smd custom
 		(at 0.01 0)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -129,7 +118,7 @@
 	(pad "2" smd custom
 		(at 0.01 0)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -152,7 +141,7 @@
 	(pad "3" smd custom
 		(at 0.01 0)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -175,7 +164,7 @@
 	(pad "4" smd custom
 		(at 0.01 0)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -195,6 +184,7 @@
 		)
 		(uuid "88db5499-12ce-4899-b8d5-d0bb9cf7e455")
 	)
+	(embedded_fonts no)
 	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SMD_BD5.6-L5.6-W5.6-D4.1.wrl"
 		(offset
 			(xyz 0.01 -0 1.5)

@@ -1,0 +1,221 @@
+(footprint "CONN-TH_4P-P2.54_DIBO_DB141R-2.54-4P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.55 0)
+		(layer "F.SilkS")
+		(uuid "40e87be3-1037-4c9a-8da5-f5959d0f7b32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_4P-P2.54_DIBO_DB141R-2.54-4P"
+		(at 0 6.55 0)
+		(layer "F.Fab")
+		(uuid "5c156d2f-ba22-4209-962b-028d76acd3a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "575c9ef7-e013-427d-a161-eedcfa4cb1a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13d05e7b-aee5-4e42-9356-95af86d29245")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.71 -5.57)
+		(end -4.71 -3.15)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb9b3443-cf87-4350-a3d5-abed8ba3b842")
+	)
+	(fp_line
+		(start -4.71 -5.57)
+		(end 7.97 -5.57)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3db9c361-1717-4ba0-bf1d-7b8b90314a01")
+	)
+	(fp_line
+		(start -4.71 -1.95)
+		(end -4.71 1.93)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f688ebdc-b9b7-4d9a-8a49-a74d0af1625e")
+	)
+	(fp_line
+		(start -4.71 3.13)
+		(end -4.71 7.03)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6350b98-7c6e-4170-b44c-942970a5d461")
+	)
+	(fp_line
+		(start -4.71 7.03)
+		(end 7.97 7.03)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59ae3758-0c30-447c-a4a3-7b39603cbb02")
+	)
+	(fp_line
+		(start 5.02 -5.57)
+		(end 5.02 7.03)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e457816-67e7-41c6-a8a5-c1be6c1cb380")
+	)
+	(fp_line
+		(start 7.97 -5.57)
+		(end 7.97 7.03)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c795a42e-69c9-4ed0-b151-06b9335a502c")
+	)
+	(fp_circle
+		(center -4.71 7.13)
+		(end -4.68 7.13)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "32d2317a-1cbc-49eb-aa44-eb1b5143e958")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b1fa85f8-0dde-4697-8e32-98405cef6692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -2.55)
+		(size 1.7 1.7)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a247f5e-1e49-439a-85d6-cfe74f921500")
+	)
+	(pad "1" thru_hole circle
+		(at -3.79 2.55)
+		(size 1.7 1.7)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8776b841-3f63-4de8-8bcb-efc965e20caa")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 -2.55)
+		(size 1.7 1.7)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b10f5a14-45b7-4550-951b-667b5a7ac703")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 2.53)
+		(size 1.7 1.7)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "219d30a0-dd6b-4761-b3d8-38357285bc4c")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -2.55)
+		(size 1.7 1.7)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "18b0b642-e805-4888-bd7d-0c826a7da0ce")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 2.53)
+		(size 1.7 1.7)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e94d51e3-8e60-4da0-ab5c-eb37bbcca9c5")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 -2.55)
+		(size 1.7 1.7)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a719e7d-4d5c-4a78-b687-54261b54b576")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 2.53)
+		(size 1.7 1.7)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40b53e20-1fd2-4dba-a941-158b8fe0733d")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_4P-P2.54_DIBO_DB141R-2.54-4P.wrl"
+		(offset
+			(xyz 1.63 -0.73 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

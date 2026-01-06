@@ -1,24 +1,143 @@
-(module easyeda2kicad:CONN-TH_2P-P3.81_WJ15EDGRC-3.81-2P (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "CONN-TH_2P-P3.81_WJ15EDGRC-3.81-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "de1b62fd-7e2f-4339-9c1c-0d277af69f2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_2P-P3.81_WJ15EDGRC-3.81-2P"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "a23af597-0aa9-4974-891a-8b98ca64cc07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "577b3c88-b0d6-425e-902e-f7a55f75e65d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13e346dc-2452-48ab-8a30-cc39e41e209d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -4.25 -1.6)
+		(end -4.25 7.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06c1a46c-9f43-4a0e-97d4-477062d075da")
 	)
-	(fp_text value CONN-TH_2P-P3.81_WJ15EDGRC-3.81-2P (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -4.25 7.55)
+		(end 4.25 7.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ecca96a-d97e-42fd-b9f1-89eb8f5b76ed")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start 4.25 -1.6)
+		(end -4.25 -1.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d70be81-2714-4349-a741-88300d0ef936")
 	)
-	(fp_line (start 4.25 -1.60) (end -4.25 -1.60) (layer F.SilkS) (width 0.25))
-	(fp_line (start -4.25 -1.60) (end -4.25 7.55) (layer F.SilkS) (width 0.25))
-	(fp_line (start -4.25 7.55) (end 4.25 7.55) (layer F.SilkS) (width 0.25))
-	(fp_line (start 4.25 7.55) (end 4.25 -1.60) (layer F.SilkS) (width 0.25))
-	(pad 1 thru_hole rect (at -1.90 0.00 0.00) (size 2.20 2.20) (layers *.Cu *.Mask)(drill 1.2599924))
-	(pad 2 thru_hole circle (at 1.91 0.00 0.00) (size 2.20 2.20) (layers *.Cu *.Mask)(drill 1.2599924))
-	(fp_circle (center -4.25 7.55) (end -4.22 7.55) (layer F.Fab) (width 0.06))
+	(fp_line
+		(start 4.25 7.55)
+		(end 4.25 -1.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6b75289-908d-49bb-bbc0-5cb63109e1d0")
+	)
+	(fp_circle
+		(center -4.25 7.55)
+		(end -4.22 7.55)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6075523d-a02e-4853-b289-5383f5cad306")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "622dc4ff-c52a-484f-b009-c8d9c6450944")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.9 0)
+		(size 2.2 2.2)
+		(drill 1.259992)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19c5ed32-5bd0-4f62-949b-8685650f0dac")
+	)
+	(pad "2" thru_hole circle
+		(at 1.91 0)
+		(size 2.2 2.2)
+		(drill 1.259992)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0714738d-f00f-4ec4-9a33-412cd1d25a58")
+	)
+	(embedded_fonts no)
 	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_2P_L8.5-W9.2-H7.0-P3.81.wrl"
-		(offset (xyz 0.000 -3.000 0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz -1.9 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )
