@@ -178,7 +178,11 @@
 	)
 	(pad "1" smd roundrect
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at -0.8 0)
+=======
+		(at -0.82 0)
+>>>>>>> Stashed changes
 =======
 		(at -0.82 0)
 >>>>>>> Stashed changes
@@ -189,7 +193,11 @@
 	)
 	(pad "2" smd roundrect
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 0.8 0)
+=======
+		(at 0.82 0)
+>>>>>>> Stashed changes
 =======
 		(at 0.82 0)
 >>>>>>> Stashed changes
