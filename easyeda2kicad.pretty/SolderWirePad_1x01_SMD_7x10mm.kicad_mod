@@ -1,0 +1,99 @@
+(footprint "SolderWirePad_1x01_SMD_7x10mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  5mm x 10mm")
+	(tags "MeasurementPoint Square SMDPad 5mmx10mm ")
+	(property "Reference" "J202"
+		(at 0 -8.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "36865de0-9be8-41b9-aef1-bed0647cd426")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01_Pin"
+		(at 0 6.35 0)
+		(layer "F.Fab")
+		(uuid "e3e433e6-7433-4734-a84e-986ea049b5ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80f330c5-6af3-458a-886f-3ff253ed7937")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c3730b7-d2d8-4dde-ac47-bdd6430182a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -3.65 -5.15)
+		(end 3.65 5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6faf443f-a31b-4c1a-baeb-546b6aab1080")
+	)
+	(fp_rect
+		(start -3.75 -5.25)
+		(end 3.75 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "64485867-fa84-4ad2-b073-21ccee377384")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0654da20-850f-43fa-a5aa-aee73859abc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 7 10)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c40fc17d-0a8d-449f-a2c7-9731d28eaec6")
+	)
+	(embedded_fonts no)
+)
